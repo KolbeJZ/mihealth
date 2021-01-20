@@ -1,0 +1,109 @@
+
+a, p, div, h1, html, body, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color:black;
+    text-decoration:none;
+    float:right;
+    margin-right: 75px;
+    padding-top:16px;
+}
+#nav a {
+    float:right;
+}
+#nav {
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    background-color:white;
+    width:100%;
+    height:50px;
+}
+h1.a{
+    color:#00ac00;
+    display:inline-block;
+    padding-left:50px;
+    padding-top:10px;
+}
+h1.b{
+    color:#e22525;
+    display:inline-block;
+    padding-top:10px;
+}
+body{
+    background-color:lightgrey;
+    background-image:url('papyrus/papyrus.png')
+}
+.healthy{
+    width:325px;
+    margin-top:70px;
+    display:inline-block;
+    margin-left:60px;
+    clear:both;
+}
+.healthy h1{
+    font-family: 'Coda Caption', sans-serif;
+    font-size:65px;
+    font-weight:900;
+}
+.healthy p{
+    padding-top:20px;
+    font-size:23px;
+}
+.arrow {
+    font-family: 'Tinos', serif;
+}
+.containers {
+    clear:both;
+    position:relative;
+    text-align:center;
+    float:right;
+    padding-top: 100px;
+    padding-right: 50px;
+    color:white;
+}
+img {
+    height:375px;
+    width: auto;
+}
+.first{
+    width:260px;
+    float:right;
+    padding: 5px;
+    position:relative;
+    text-align:center;
+    color:black;
+    background-size:cover;
+}
+.bigcontainer{
+    width:100%;
+    display:inline-block;
+    clear:both;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    text-align:center;
+    right: 5px;
+    background-color:#00ac00;
+    height:30px;
+    padding: 10px 25px;
+    width:120px;
+    text-decoration: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  .top-right {
+    position: absolute;
+    bottom: 58px;
+    background-color:white;
+    text-align:center;
+    height:30px;
+    padding:10px 25px;
+    right: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
